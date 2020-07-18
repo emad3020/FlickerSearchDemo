@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,8 +15,29 @@
 		0403DB9A21C475A000EAFE47 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403DB9921C475A000EAFE47 /* Constant.swift */; };
 		0403DB9C21C475E000EAFE47 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403DB9B21C475E000EAFE47 /* SearchService.swift */; };
 		04FBE4D721C511EB00F1071A /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE4D621C511EB00F1071A /* PhotoModel.swift */; };
-		04FBE4DA21C514B000F1071A /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE4D921C514B000F1071A /* SearchCell.swift */; };
 		04FBE4DC21C5184500F1071A /* UserPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBE4DB21C5184500F1071A /* UserPhotoVC.swift */; };
+		930133E924B52C0300A3A36B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930133E824B52C0300A3A36B /* HomeViewModel.swift */; };
+		930133EC24B52C2700A3A36B /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930133EB24B52C2700A3A36B /* ViewModelProtocol.swift */; };
+		93067F7724C274EF0097E8CE /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93067F7624C274EF0097E8CE /* BaseViewModel.swift */; };
+		93067F7924C281380097E8CE /* SimpleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93067F7824C281380097E8CE /* SimpleViewModel.swift */; };
+		9315D8BB24B9F8E800DE3C71 /* SearchCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8BA24B9F8E800DE3C71 /* SearchCellViewModel.swift */; };
+		9315D8CA24BA341B00DE3C71 /* SearchPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8C824BA341B00DE3C71 /* SearchPhotoCell.swift */; };
+		9315D8CB24BA341B00DE3C71 /* SearchPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9315D8C924BA341B00DE3C71 /* SearchPhotoCell.xib */; };
+		9315D8CF24BA42D500DE3C71 /* UserPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8CE24BA42D500DE3C71 /* UserPhotoViewModel.swift */; };
+		9315D8D324BA449900DE3C71 /* EX+UserPhotoVC+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8D224BA449900DE3C71 /* EX+UserPhotoVC+UITableViewDelegate.swift */; };
+		9315D8D524BA44CF00DE3C71 /*  EX+UserPhotoVC+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8D424BA44CF00DE3C71 /*  EX+UserPhotoVC+UITableViewDataSource.swift */; };
+		9315D8D824BA458000DE3C71 /* UserPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8D624BA458000DE3C71 /* UserPhotoCell.swift */; };
+		9315D8D924BA458000DE3C71 /* UserPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9315D8D724BA458000DE3C71 /* UserPhotoCell.xib */; };
+		9315D8DB24BA463B00DE3C71 /* UserPhotoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9315D8DA24BA463B00DE3C71 /* UserPhotoCellViewModel.swift */; };
+		93C7A2A524B892410011C7F6 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2A424B892410011C7F6 /* Observable.swift */; };
+		93C7A2A724B895DC0011C7F6 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2A624B895DC0011C7F6 /* State.swift */; };
+		93C7A2A924B932910011C7F6 /* FlickerEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2A824B932910011C7F6 /* FlickerEndPoint.swift */; };
+		93C7A2AB24B932A20011C7F6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2AA24B932A20011C7F6 /* NetworkManager.swift */; };
+		93C7A2AD24B932AF0011C7F6 /* FlickerRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2AC24B932AF0011C7F6 /* FlickerRepo.swift */; };
+		93C7A2AF24B932BC0011C7F6 /* FlickerRepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2AE24B932BC0011C7F6 /* FlickerRepoProtocol.swift */; };
+		93C7A2B124B939750011C7F6 /* EX+MainVC+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2B024B939750011C7F6 /* EX+MainVC+UITableViewDelegate.swift */; };
+		93C7A2B324B939DF0011C7F6 /* EX+MainVC+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2B224B939DF0011C7F6 /* EX+MainVC+UITableViewDataSource.swift */; };
+		93C7A2B524B93A290011C7F6 /* EX+MainVC+UISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A2B424B93A290011C7F6 /* EX+MainVC+UISearchBarDelegate.swift */; };
 		D29E5AD7001DD7D13B5A8CD4 /* Pods_Flicker_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6BE93DA37542F2A54413B7 /* Pods_Flicker_Search.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,11 +52,32 @@
 		0403DB9921C475A000EAFE47 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0403DB9B21C475E000EAFE47 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		04FBE4D621C511EB00F1071A /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
-		04FBE4D921C514B000F1071A /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		04FBE4DB21C5184500F1071A /* UserPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoVC.swift; sourceTree = "<group>"; };
 		41F756644E1C25284E6C2855 /* Pods-Flicker Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicker Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flicker Search/Pods-Flicker Search.release.xcconfig"; sourceTree = "<group>"; };
 		5F264442C4A334BBEFAF5B55 /* Pods-Flicker Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicker Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flicker Search/Pods-Flicker Search.debug.xcconfig"; sourceTree = "<group>"; };
 		7B6BE93DA37542F2A54413B7 /* Pods_Flicker_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flicker_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930133E824B52C0300A3A36B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		930133EB24B52C2700A3A36B /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		93067F7624C274EF0097E8CE /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		93067F7824C281380097E8CE /* SimpleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewModel.swift; sourceTree = "<group>"; };
+		9315D8BA24B9F8E800DE3C71 /* SearchCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCellViewModel.swift; sourceTree = "<group>"; };
+		9315D8C824BA341B00DE3C71 /* SearchPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoCell.swift; sourceTree = "<group>"; };
+		9315D8C924BA341B00DE3C71 /* SearchPhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchPhotoCell.xib; sourceTree = "<group>"; };
+		9315D8CE24BA42D500DE3C71 /* UserPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoViewModel.swift; sourceTree = "<group>"; };
+		9315D8D224BA449900DE3C71 /* EX+UserPhotoVC+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EX+UserPhotoVC+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		9315D8D424BA44CF00DE3C71 /*  EX+UserPhotoVC+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " EX+UserPhotoVC+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		9315D8D624BA458000DE3C71 /* UserPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoCell.swift; sourceTree = "<group>"; };
+		9315D8D724BA458000DE3C71 /* UserPhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserPhotoCell.xib; sourceTree = "<group>"; };
+		9315D8DA24BA463B00DE3C71 /* UserPhotoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoCellViewModel.swift; sourceTree = "<group>"; };
+		93C7A2A424B892410011C7F6 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		93C7A2A624B895DC0011C7F6 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		93C7A2A824B932910011C7F6 /* FlickerEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerEndPoint.swift; sourceTree = "<group>"; };
+		93C7A2AA24B932A20011C7F6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		93C7A2AC24B932AF0011C7F6 /* FlickerRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerRepo.swift; sourceTree = "<group>"; };
+		93C7A2AE24B932BC0011C7F6 /* FlickerRepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerRepoProtocol.swift; sourceTree = "<group>"; };
+		93C7A2B024B939750011C7F6 /* EX+MainVC+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EX+MainVC+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		93C7A2B224B939DF0011C7F6 /* EX+MainVC+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EX+MainVC+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		93C7A2B424B93A290011C7F6 /* EX+MainVC+UISearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EX+MainVC+UISearchBarDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,27 +113,17 @@
 		0403DB8221C4749500EAFE47 /* Flicker Search */ = {
 			isa = PBXGroup;
 			children = (
-				04FBE4D821C5149500F1071A /* View */,
+				930133EA24B52C1000A3A36B /* Common */,
+				930133E224B5227100A3A36B /* Moduel */,
 				0403DB9821C4759100EAFE47 /* Utilites */,
 				0403DB9721C4758A00EAFE47 /* Services */,
 				0403DB9621C4757E00EAFE47 /* Model */,
-				0403DB9521C4755300EAFE47 /* Controller */,
-				0403DB8321C4749500EAFE47 /* AppDelegate.swift */,
 				0403DB8721C4749500EAFE47 /* Main.storyboard */,
 				0403DB8A21C4749800EAFE47 /* Assets.xcassets */,
 				0403DB8C21C4749800EAFE47 /* LaunchScreen.storyboard */,
 				0403DB8F21C4749800EAFE47 /* Info.plist */,
 			);
 			path = "Flicker Search";
-			sourceTree = "<group>";
-		};
-		0403DB9521C4755300EAFE47 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				0403DB8521C4749500EAFE47 /* MainVC.swift */,
-				04FBE4DB21C5184500F1071A /* UserPhotoVC.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		0403DB9621C4757E00EAFE47 /* Model */ = {
@@ -106,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				0403DB9B21C475E000EAFE47 /* SearchService.swift */,
+				93C7A2AC24B932AF0011C7F6 /* FlickerRepo.swift */,
+				93C7A2AE24B932BC0011C7F6 /* FlickerRepoProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -118,12 +152,121 @@
 			path = Utilites;
 			sourceTree = "<group>";
 		};
-		04FBE4D821C5149500F1071A /* View */ = {
+		930133E224B5227100A3A36B /* Moduel */ = {
 			isa = PBXGroup;
 			children = (
-				04FBE4D921C514B000F1071A /* SearchCell.swift */,
+				9315D8CC24BA428800DE3C71 /* UserPhotos */,
+				930133E324B5228000A3A36B /* Home */,
 			);
-			path = View;
+			path = Moduel;
+			sourceTree = "<group>";
+		};
+		930133E324B5228000A3A36B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9315D8C324BA0E3E00DE3C71 /* Cell */,
+				930133E724B52BCD00A3A36B /* ViewModel */,
+				930133E524B5229400A3A36B /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		930133E524B5229400A3A36B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0403DB8521C4749500EAFE47 /* MainVC.swift */,
+				93C7A2B024B939750011C7F6 /* EX+MainVC+UITableViewDelegate.swift */,
+				93C7A2B224B939DF0011C7F6 /* EX+MainVC+UITableViewDataSource.swift */,
+				93C7A2B424B93A290011C7F6 /* EX+MainVC+UISearchBarDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		930133E724B52BCD00A3A36B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				930133E824B52C0300A3A36B /* HomeViewModel.swift */,
+				9315D8BA24B9F8E800DE3C71 /* SearchCellViewModel.swift */,
+				93067F7824C281380097E8CE /* SimpleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		930133EA24B52C1000A3A36B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0403DB8321C4749500EAFE47 /* AppDelegate.swift */,
+				93C7A2B724B93BBE0011C7F6 /* Bases */,
+				93C7A2B624B93BB20011C7F6 /* Networking */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9315D8C324BA0E3E00DE3C71 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9315D8C824BA341B00DE3C71 /* SearchPhotoCell.swift */,
+				9315D8C924BA341B00DE3C71 /* SearchPhotoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9315D8CC24BA428800DE3C71 /* UserPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				9315D8D124BA447A00DE3C71 /* Controller */,
+				9315D8D024BA42FE00DE3C71 /* Cell */,
+				9315D8CD24BA42C400DE3C71 /* ViewModel */,
+			);
+			path = UserPhotos;
+			sourceTree = "<group>";
+		};
+		9315D8CD24BA42C400DE3C71 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9315D8DA24BA463B00DE3C71 /* UserPhotoCellViewModel.swift */,
+				9315D8CE24BA42D500DE3C71 /* UserPhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9315D8D024BA42FE00DE3C71 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9315D8D624BA458000DE3C71 /* UserPhotoCell.swift */,
+				9315D8D724BA458000DE3C71 /* UserPhotoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9315D8D124BA447A00DE3C71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04FBE4DB21C5184500F1071A /* UserPhotoVC.swift */,
+				9315D8D224BA449900DE3C71 /* EX+UserPhotoVC+UITableViewDelegate.swift */,
+				9315D8D424BA44CF00DE3C71 /*  EX+UserPhotoVC+UITableViewDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C7A2B624B93BB20011C7F6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A2A824B932910011C7F6 /* FlickerEndPoint.swift */,
+				93C7A2AA24B932A20011C7F6 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		93C7A2B724B93BBE0011C7F6 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				930133EB24B52C2700A3A36B /* ViewModelProtocol.swift */,
+				93C7A2A424B892410011C7F6 /* Observable.swift */,
+				93C7A2A624B895DC0011C7F6 /* State.swift */,
+				93067F7624C274EF0097E8CE /* BaseViewModel.swift */,
+			);
+			path = Bases;
 			sourceTree = "<group>";
 		};
 		A118DB2C8EF6DEBB2060EF02 /* Frameworks */ = {
@@ -205,7 +348,9 @@
 			files = (
 				0403DB8E21C4749800EAFE47 /* LaunchScreen.storyboard in Resources */,
 				0403DB8B21C4749800EAFE47 /* Assets.xcassets in Resources */,
+				9315D8CB24BA341B00DE3C71 /* SearchPhotoCell.xib in Resources */,
 				0403DB8921C4749500EAFE47 /* Main.storyboard in Resources */,
+				9315D8D924BA458000DE3C71 /* UserPhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,23 +380,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Flicker Search/Pods-Flicker Search-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flicker Search/Pods-Flicker Search-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flicker Search/Pods-Flicker Search-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flicker Search/Pods-Flicker Search-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flicker Search/Pods-Flicker Search-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -262,10 +400,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				0403DB8621C4749500EAFE47 /* MainVC.swift in Sources */,
-				04FBE4DA21C514B000F1071A /* SearchCell.swift in Sources */,
+				93C7A2AF24B932BC0011C7F6 /* FlickerRepoProtocol.swift in Sources */,
+				93C7A2B124B939750011C7F6 /* EX+MainVC+UITableViewDelegate.swift in Sources */,
+				9315D8CF24BA42D500DE3C71 /* UserPhotoViewModel.swift in Sources */,
+				9315D8DB24BA463B00DE3C71 /* UserPhotoCellViewModel.swift in Sources */,
 				0403DB9C21C475E000EAFE47 /* SearchService.swift in Sources */,
+				93067F7924C281380097E8CE /* SimpleViewModel.swift in Sources */,
+				93067F7724C274EF0097E8CE /* BaseViewModel.swift in Sources */,
+				9315D8CA24BA341B00DE3C71 /* SearchPhotoCell.swift in Sources */,
+				9315D8D824BA458000DE3C71 /* UserPhotoCell.swift in Sources */,
+				9315D8D324BA449900DE3C71 /* EX+UserPhotoVC+UITableViewDelegate.swift in Sources */,
+				93C7A2AB24B932A20011C7F6 /* NetworkManager.swift in Sources */,
+				93C7A2A724B895DC0011C7F6 /* State.swift in Sources */,
+				930133E924B52C0300A3A36B /* HomeViewModel.swift in Sources */,
+				93C7A2AD24B932AF0011C7F6 /* FlickerRepo.swift in Sources */,
+				9315D8BB24B9F8E800DE3C71 /* SearchCellViewModel.swift in Sources */,
+				93C7A2A924B932910011C7F6 /* FlickerEndPoint.swift in Sources */,
 				0403DB8421C4749500EAFE47 /* AppDelegate.swift in Sources */,
+				930133EC24B52C2700A3A36B /* ViewModelProtocol.swift in Sources */,
+				93C7A2A524B892410011C7F6 /* Observable.swift in Sources */,
+				93C7A2B324B939DF0011C7F6 /* EX+MainVC+UITableViewDataSource.swift in Sources */,
 				04FBE4D721C511EB00F1071A /* PhotoModel.swift in Sources */,
+				93C7A2B524B93A290011C7F6 /* EX+MainVC+UISearchBarDelegate.swift in Sources */,
+				9315D8D524BA44CF00DE3C71 /*  EX+UserPhotoVC+UITableViewDataSource.swift in Sources */,
 				0403DB9A21C475A000EAFE47 /* Constant.swift in Sources */,
 				04FBE4DC21C5184500F1071A /* UserPhotoVC.swift in Sources */,
 			);

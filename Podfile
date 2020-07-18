@@ -9,8 +9,7 @@ target 'Flicker Search' do
 
   # Pods for Flicker Search
 
-pod 'Alamofire'
-pod 'SwiftyJSON'
+pod 'Moya', '13.0.1'
 pod 'JGProgressHUD'
 pod 'Kingfisher'
 end

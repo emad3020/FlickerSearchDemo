@@ -8,15 +8,23 @@
 
 import Foundation
 
-struct PhotoModel {
-    
-    public private(set) var id : String
-    public private(set) var owner : String
-    public private(set) var secret : String
-    public private(set) var server : String
-    public private(set) var title : String 
-    public private(set) var farm : Int
-    public private(set) var isPublic : Int
-    public private(set) var isFriend: Int
-    public private(set) var isFamily: Int 
+// MARK: - PhotoModel
+struct PhotoModel: Codable {
+    let photos: Photos
+    let stat: String
+}
+
+// MARK: - Photos
+struct Photos: Codable {
+    let page, pages, perpage: Int
+    let total: String
+    let photo: [Photo]
+}
+
+// MARK: - Photo
+struct Photo: Codable {
+    let id, owner, secret, server: String
+    let farm: Int
+    let title: String
+    let ispublic, isfriend, isfamily: Int
 }
